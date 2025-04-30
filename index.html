@@ -30,7 +30,7 @@
       formData.append("text", text);
       formData.append("voice", voice);
 
-      const response = await fetch("https://generate-audio.onrender.com", {
+      const response = await fetch("https://generate-audio.onrender.com/generate-audio", {
         method: "POST",
         body: formData
       });
